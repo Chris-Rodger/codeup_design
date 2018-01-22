@@ -35,7 +35,28 @@ p{
     font-family: abel;
 }
 
-#codeup-header{
+.btn-circle.btn-xl {
+    width: 200px;
+    height: 200px;
+    padding: 10px 16px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 1.33;
+    border: 8px solid white;
+    color: white;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.codeup-header{
     font-size: 4.25em;
 }
 
@@ -43,12 +64,57 @@ p{
     background-color: #F0F0F0;
 }
 
-#logo{
+#logo_xs{
     position: relative;
     top: -100px;
+}
+
+#logo_sm {
+    position: relative;
+    top: -100px;
+}
+
+.col-md-offset-2:nth-child(1) {
+    font-size: 2em;
+}
+
+.col-lg-4:nth-child(1) {
+    font-size: 2em;
+}
+
+#logo_md {
+    position: relative;
+    top: -100px;
+    left: 40px;
+}
+
+#logo_lg {
+    position: relative;
+    top: -100px;
+    left: 215px;
+}
+
+.orange {
+    background-color: #e6563b;
+}
+
+.yellow {
+    background-color: #eb9d3a;
+}
+
+.green {
+    background-color: #7cb06c;
+}
+
+.blue {
+    background-color: #00aba9;
 }
 
 #content{
     background-color:#F0F0F0;
 }
 
+
+.nav_pad {
+    padding-top: 13px;
+}
