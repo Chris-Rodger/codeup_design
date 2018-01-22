@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Anton');
+
+
+body{
+    background-color:#F0F0F0;
+}
+
+h1{
+    font-size: 64px;
+    font-family: anton;
+}
+
+h2{
+    font-size: 48px;
+    font-family: anton;
+}
+
+h3{
+    font-size: 40px;
+    font-family: anton;
+}
+
+h4{
+    font-size: 32px;
+    font-family: anton;
+}
+
+
+h5{
+    font-size: 28px;
+    font-family: anton;
+}
+
+p{
+    font-family: abel;
+}
+
+#codeup-header{
+    font-size: 4.25em;
+}
+
+.jumbotron {
+    background-color: #F0F0F0;
+}
+
+#logo{
+    position: relative;
+    top: -100px;
+}
+
+#content{
+    background-color:#F0F0F0;
+}
+
