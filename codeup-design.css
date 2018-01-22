@@ -69,6 +69,17 @@ p{
 
 }
 
+.btn-circle.btn-icon {
+    width: 18px;
+    height: 18px;
+    /*padding: 10px 16px;*/
+    border-radius: 50%;
+    font-size: 6px;
+    line-height: 1.33;
+    color: black;
+    text-align: center;
+
+}
 
 
 
@@ -153,4 +164,18 @@ p{
     background-color: black;
     border-bottom:2px solid lightgrey;
     width: 100%;
+}
+
+.large_pics {
+    width: 85%;
+}
+
+.the_last_pics_icons {
+    width: 60px;
+    padding-top: 10px;
+}
+
+.twitter_icon {
+    height: 20px;
+    width: 20px;
 }
