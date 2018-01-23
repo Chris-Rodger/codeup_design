@@ -3,6 +3,8 @@
 
 body{
     background-color:#F0F0F0;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -14,6 +16,23 @@ h2{
     font-size: 48px;
     font-family: anton;
 }
+
+body > div.container-fluid > div:nth-child(7) > div:nth-child(2) > div{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body > div.container-fluid > div:nth-child(7) > div.row.test_height > div{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+/*img{*/
+    /*display:none !important;*/
+/*}*/
 
 h3{
     font-size: 40px;
@@ -114,6 +133,10 @@ p{
     font-size: 2em;
 }
 
+.container-fluid{
+    padding:0;
+    margin:0;
+}
 .col-lg-4:nth-child(1) {
     font-size: 2em;
 }
@@ -125,6 +148,7 @@ p{
 }
 
 #logo_lg {
+    display:inline;
     position: relative;
     top: -100px;
     left: 180px;
@@ -164,6 +188,7 @@ p{
     background-color: black;
     border-bottom:2px solid lightgrey;
     width: 75%;
+
 }
 
 .hr_md{
@@ -220,3 +245,4 @@ p{
 .margin-right_sm {
     margin-right: 10px;
 }
+
