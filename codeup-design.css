@@ -81,7 +81,13 @@ p{
 
 }
 
+.test_height_md {
+    height: 100px;
+}
 
+.test_height_sm {
+    height: 200px;
+}
 
 
 
@@ -150,7 +156,7 @@ p{
 }
 
 #test{
-    width: 90%;
+    width: 80%;
 }
 
 .hr_sm{
@@ -163,15 +169,19 @@ p{
 .hr_md{
     color: black;
     background-color: black;
-    border-bottom:2px solid lightgrey;
-    width: 68%;
+    border-bottom:2px solid lightgrey;;
     margin-bottom: 3%;
     margin-top: 2%;
 }
 
 .large_pics {
-    width: 85%;
-    height: 167px;
+     height: 189px;
+     width: 90%;
+ }
+
+.small_pics {
+    height: 169px;
+    width: 88%;
 }
 
 .the_last_pics_icons {
@@ -201,4 +211,12 @@ p{
 
 .margin-bottom{
     margin-top:25px;
+}
+
+.margin_top_medium {
+    margin-top: 15px;
+}
+
+.margin-right_sm {
+    margin-right: 10px;
 }
